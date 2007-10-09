@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Repositories in ICOS</title>
+    <link href="repositories.json" type="application/json" rel="exhibit/data" />
+    <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js"
+            type="text/javascript"></script>
+    <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=ABQIAAAAO4inKKBbkm8WiigSm3owFhTvlhzuh3Ln98gA1ajQWp4aDQ9CJxTeDBhs-YGBMXGNtO5xWGF2HWVQ1w"
+            type="text/javascript"></script>
+  </head> 
+  <body>
+    <h1>Repositories in ICOS</h1>
+    <div style="width: 98%;">
+      <div style="float: left; width: 25%; margin-right: 2%;">
+        <div ex:role="facet" ex:facetClass="TextSearch"  ex:facetLabel="Search for a repository:" style="margin-bottom: 5%;"></div>
+        <div ex:role="facet" ex:expression=".country" ex:sortMode="count" ex:facetLabel="Country"></div>
+        <div ex:role="facet" ex:expression=".address_source" ex:sortMode="count" ex:facetLabel="Geodata Source"></div>
+
+      </div>
+      <div ex:role="view" ex:viewClass="Map" ex:latlng=".addressLatLng" style="float: left; width: 70%;" ex:mapHeight="450"></div>
+    </div>
+  </body>
+</html>
