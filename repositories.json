@@ -789,15 +789,15 @@
     }, 
     {
       "type": "repository", 
-      "label": "Princeton University. Dept. of Rare Books and Special Collections"
+      "label": "Princeton University. Department of Rare Books and Special Collections"
     }, 
     {
       "canonical_address": "1 Washington Rd, Princeton, NJ 08544, USA", 
       "country": "USA", 
       "addressLatLng": "40.350315,-74.657063", 
-      "address": "One Washington Road, Princeton, NJ 08544 USA", 
-      "normalized_address": "One Washington Road, Princeton, NJ 08544 USA", 
-      "id": "Princeton University. Dept. of Rare Books and Special Collections", 
+      "address": "1 Washington Road, Princeton, NJ 08544 USA", 
+      "normalized_address": "1 Washington Road, Princeton, NJ 08544 USA", 
+      "id": "Princeton University. Department of Rare Books and Special Collections", 
       "address_source": "Google"
     }, 
     {
@@ -3098,15 +3098,15 @@
     }, 
     {
       "type": "repository", 
-      "label": "Texas A&M University. Cushing Memorial Library"
+      "label": "Texas A&M University, Cushing Memorial Library and Archives"
     }, 
     {
       "canonical_address": "College Station, TX 77843, USA", 
       "country": "USA", 
-      "addressLatLng": "30.607900,-96.353800", 
-      "address": "College Station, TX 77843-5000. USA", 
-      "normalized_address": "College Station, TX 77843-5000. USA", 
-      "id": "Texas A&M University. Cushing Memorial Library", 
+      "addressLatLng": "30.608359,-96.350119", 
+      "address": "College Station, TX 77843-5000", 
+      "normalized_address": "College Station, TX 77843-5000", 
+      "id": "Texas A&M University, Cushing Memorial Library and Archives", 
       "address_source": "Google"
     }, 
     {
@@ -3196,7 +3196,7 @@
       "country": "England, UK", 
       "addressLatLng": "53.480731,-2.234506", 
       "address": "Manchester", 
-      "normalized_address": "Manchester", 
+      "normalized_address": "Manchester ENGLAND, UK", 
       "id": "University of Manchester. Centre for the History of Science, Technology & Medicine. National Archive for the History of Computing", 
       "address_source": "Google"
     }, 
@@ -3375,7 +3375,7 @@
       "country": "England, UK", 
       "addressLatLng": "51.500152,-0.126236", 
       "address": "London", 
-      "normalized_address": "London", 
+      "normalized_address": "London ENGLAND, UK", 
       "id": "Institute of Geological Sciences", 
       "address_source": "Google"
     }, 
@@ -3472,13 +3472,13 @@
       "label": "Pembroke College"
     }, 
     {
-      "canonical_address": "Cambridge, MA, USA", 
+      "canonical_address": "Cambridge, Cambridgeshire, United Kingdom, GB", 
       "country": "England, UK", 
-      "addressLatLng": "42.366830,-71.106000", 
+      "addressLatLng": "52.209870,0.111565", 
       "address": "Cambridge", 
-      "normalized_address": "Cambridge", 
+      "normalized_address": "Cambridge ENGLAND, UK", 
       "id": "Pembroke College", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -4311,26 +4311,26 @@
       "label": "In Fumi's possession. Universit\u00e0 di Genova, Instituto di Scienze Fisiche"
     }, 
     {
-      "canonical_address": "Genova, Genova (Liguria), Italy", 
+      "canonical_address": "Genoa Genua, Italy, IT", 
       "country": "Italy", 
-      "addressLatLng": "44.407062,8.933988", 
+      "addressLatLng": "44.410385,8.938870", 
       "address": "Genoa, Italy", 
       "normalized_address": "Genoa, Italy", 
       "id": "In Fumi's possession. Universit\u00e0 di Genova, Instituto di Scienze Fisiche", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
       "label": "In Giulotto's possession"
     }, 
     {
-      "canonical_address": "Italy", 
+      "canonical_address": "Italy, IT", 
       "country": "Italy", 
-      "addressLatLng": "41.871940,12.567380", 
+      "addressLatLng": "42.502998,12.573410", 
       "address": "Italy", 
       "normalized_address": "Italy", 
       "id": "In Giulotto's possession", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -4441,13 +4441,13 @@
       "label": "In Lamb's possession"
     }, 
     {
-      "canonical_address": "XX, Budapest, Hungary", 
+      "canonical_address": "Disputed Territory, XX", 
       "country": "xx", 
-      "addressLatLng": "47.430971,19.134742", 
+      "addressLatLng": "34.687561,79.098518", 
       "address": "", 
       "normalized_address": "XX", 
       "id": "In Lamb's possession", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -4545,13 +4545,13 @@
       "label": "Norwegian University of Science and Technology. Library"
     }, 
     {
-      "canonical_address": "Trondheim, Norway, NO", 
+      "canonical_address": "Trondheim, Norway", 
       "country": "Norway", 
-      "addressLatLng": "63.431005,10.392080", 
+      "addressLatLng": "63.434629,10.398455", 
       "address": "Trondheim, Norway", 
       "normalized_address": "Trondheim, Norway", 
       "id": "Norwegian University of Science and Technology. Library", 
-      "address_source": "Yahoo"
+      "address_source": "Google"
     }, 
     {
       "type": "repository", 
@@ -6503,9 +6503,9 @@
       "label": "Technische Universit\u00e4t M\u00fcnchen. Physikdepartment Bibliothek"
     }, 
     {
-      "canonical_address": "James-Franck-Stra\u00dfe, 85748 Garching bei M\u00fcnchen, Germany, DE", 
+      "canonical_address": "James-Franck-Strasse, 85748 Garching bei M\u00fcnchen, Germany, DE", 
       "country": "Germany", 
-      "addressLatLng": "48.266991,11.673474", 
+      "addressLatLng": "48.266970,11.673465", 
       "address": "James-Franck-Strasse, W-8046 Garching b. M\u00fcnchen", 
       "normalized_address": "James-Franck-Strasse, W-8046 Garching b. Munchen GERMANY", 
       "id": "Technische Universit\u00e4t M\u00fcnchen. Physikdepartment Bibliothek", 
@@ -6981,13 +6981,13 @@
       "label": "Polska Akademia Nauk. Oddzialw Krakowie. Archiwum"
     }, 
     {
-      "canonical_address": "Crakow Ct, Las Vegas, NV 89147, USA", 
+      "canonical_address": "Cracow, Poland, PL", 
       "country": "Poland", 
-      "addressLatLng": "36.102996,-115.289739", 
+      "addressLatLng": "50.059970,19.932645", 
       "address": "Crakow", 
-      "normalized_address": "Crakow", 
+      "normalized_address": "Crakow POLAND", 
       "id": "Polska Akademia Nauk. Oddzialw Krakowie. Archiwum", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -7657,13 +7657,13 @@
       "label": "Lunds Universitetsbibliotek. Handskriftsavdelningen"
     }, 
     {
-      "canonical_address": "Lund, Sweden", 
+      "canonical_address": "Lund, Sweden, SE", 
       "country": "Sweden", 
-      "addressLatLng": "55.702854,13.192912", 
+      "addressLatLng": "55.706225,13.187605", 
       "address": "Lund", 
-      "normalized_address": "Lund SWEDEN", 
+      "normalized_address": "Lund", 
       "id": "Lunds Universitetsbibliotek. Handskriftsavdelningen", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -8448,13 +8448,13 @@
       "label": "In the possession of Giancarlo Moneti at Syracuse University"
     }, 
     {
-      "canonical_address": "SYRACUSE, NY, US", 
+      "canonical_address": "Syracuse, NY, USA", 
       "country": "USA", 
-      "addressLatLng": "43.048130,-76.147346", 
+      "addressLatLng": "43.049990,-76.147390", 
       "address": "Syracuse, NY, USA", 
       "normalized_address": "Syracuse, NY, USA", 
       "id": "In the possession of Giancarlo Moneti at Syracuse University", 
-      "address_source": "Yahoo"
+      "address_source": "Google"
     }, 
     {
       "type": "repository", 
@@ -8526,13 +8526,13 @@
       "label": "Brookhaven National Laboratory. Building 510-A. Office of the Associate Director for High Energy and Nuclear Physics"
     }, 
     {
-      "canonical_address": "Long Island Expy, NY, USA", 
+      "canonical_address": "UPTON, NY 11973, US", 
       "country": "USA", 
-      "addressLatLng": "40.801386,-73.332225", 
+      "addressLatLng": "40.869400,-72.887200", 
       "address": "Upton, Long Island, NY 11973, USA", 
       "normalized_address": "Upton, Long Island, NY 11973, USA", 
       "id": "Brookhaven National Laboratory. Building 510-A. Office of the Associate Director for High Energy and Nuclear Physics", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -8656,12 +8656,12 @@
       "label": "National Archives and Records Administration. Southeast Region"
     }, 
     {
-      "canonical_address": "1557 St Joseph Ave, Atlanta, GA 30344, USA", 
-      "addressLatLng": "33.690930,-84.439243", 
+      "canonical_address": "1557 SAINT JOSEPH AVE, EAST POINT, GA 30344-2533, US", 
+      "addressLatLng": "33.691037,-84.439199", 
       "address": "1557 St. Joseph Avenue, East Point, GA 30344", 
       "normalized_address": "1557 St. Joseph Avenue, East Point, GA 30344", 
       "id": "National Archives and Records Administration. Southeast Region", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -9003,13 +9003,13 @@
       "label": "IEEE History Center. Rutgers University"
     }, 
     {
-      "canonical_address": "39 UNION ST, NEW BRUNSWICK, NJ 08901-8538, US", 
+      "canonical_address": "39 Union St, New Brunswick, NJ 08901, USA", 
       "country": "USA", 
-      "addressLatLng": "40.499375,-74.449572", 
+      "addressLatLng": "40.499229,-74.449576", 
       "address": "39 Union Street, New Brunswick, NJ 08901", 
       "normalized_address": "39 Union Street, New Brunswick, NJ 08901", 
       "id": "IEEE History Center. Rutgers University", 
-      "address_source": "Yahoo"
+      "address_source": "Google"
     }, 
     {
       "type": "repository", 
@@ -9416,6 +9416,19 @@
     }, 
     {
       "type": "repository", 
+      "label": "Princeton University. Seeley G. Mudd Manuscript Library"
+    }, 
+    {
+      "canonical_address": "65 Olden St, Princeton, NJ 08540, USA", 
+      "country": "USA", 
+      "addressLatLng": "40.349757,-74.651513", 
+      "address": "65 Olden Street, Princeton, NJ 08544, USA", 
+      "normalized_address": "65 Olden Street, Princeton, NJ 08544, USA", 
+      "id": "Princeton University. Seeley G. Mudd Manuscript Library", 
+      "address_source": "Google"
+    }, 
+    {
+      "type": "repository", 
       "label": "Brookhaven National Laboratory. Research Library"
     }, 
     {
@@ -9673,19 +9686,6 @@
     }, 
     {
       "type": "repository", 
-      "label": "Princeton University. Seeley G. Mudd Manuscript Library"
-    }, 
-    {
-      "canonical_address": "65 Olden St, Princeton, NJ 08540, USA", 
-      "country": "USA", 
-      "addressLatLng": "40.349757,-74.651513", 
-      "address": "65 Olden Street, Princeton, NJ 08544, USA", 
-      "normalized_address": "65 Olden Street, Princeton, NJ 08544, USA", 
-      "id": "Princeton University. Seeley G. Mudd Manuscript Library", 
-      "address_source": "Google"
-    }, 
-    {
-      "type": "repository", 
       "label": "Wisconsin Historical Society. Archives"
     }, 
     {
@@ -9917,26 +9917,26 @@
       "label": "Naval Historical Center. Operational Archives Branch"
     }, 
     {
-      "canonical_address": "Washington Navy Yard, DC 20374, USA", 
+      "canonical_address": "WASHINGTON NAVY YARD, DC 20374-5060, US", 
       "country": "USA", 
-      "addressLatLng": "38.874072,-76.998146", 
+      "addressLatLng": "38.874500,-76.994800", 
       "address": "Washington Navy Yard, DC 20374-5060, USA", 
       "normalized_address": "Washington Navy Yard, DC 20374-5060, USA", 
       "id": "Naval Historical Center. Operational Archives Branch", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
       "label": "Georgia Historical Society"
     }, 
     {
-      "canonical_address": "501 Whitaker St, Savannah, GA 31401, USA", 
+      "canonical_address": "501 WHITAKER ST, SAVANNAH, GA 31401-4830, US", 
       "country": "USA", 
-      "addressLatLng": "32.070520,-81.096320", 
+      "addressLatLng": "32.070439,-81.096526", 
       "address": "501 Whitaker Street, Savannah, GA 31401, USA", 
       "normalized_address": "501 Whitaker Street, Savannah, GA 31401, USA", 
       "id": "Georgia Historical Society", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -10289,7 +10289,7 @@
       "country": "USA", 
       "addressLatLng": "41.064030,-72.428740", 
       "address": "Southold, NY", 
-      "normalized_address": "Southold, NY", 
+      "normalized_address": "Southold, NY USA", 
       "id": "Southold Free Library", 
       "address_source": "Google"
     }, 
@@ -11025,13 +11025,13 @@
       "label": "Chicago Historical Society. Prints and Photographs"
     }, 
     {
-      "canonical_address": "Clark St & N Rd, Lowell, IN 46356, USA", 
+      "canonical_address": "N CLARK ST AT W NORTH AVE, CHICAGO, IL 60610, US", 
       "country": "USA", 
-      "addressLatLng": "41.299355,-87.420638", 
+      "addressLatLng": "41.911200,-87.631600", 
       "address": "Clark Street and North Avenue, Chicago, IL 60614", 
       "normalized_address": "Clark Street and North Avenue, Chicago, IL 60614", 
       "id": "Chicago Historical Society. Prints and Photographs", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -11061,16 +11061,16 @@
     }, 
     {
       "type": "repository", 
-      "label": "Princeton University. Furth Plasma Physics Laboratory. Forrestal Campus, C-Site, Princeton, NJ 08543-0451 USA"
+      "label": "Princeton University. Furth Plasma Physics Laboratory"
     }, 
     {
-      "canonical_address": "USA", 
+      "canonical_address": "PRINCETON, NJ 08543-0451, US", 
       "country": "USA", 
-      "addressLatLng": "37.090240,-95.712891", 
-      "address": "", 
-      "normalized_address": "USA", 
-      "id": "Princeton University. Furth Plasma Physics Laboratory. Forrestal Campus, C-Site, Princeton, NJ 08543-0451 USA", 
-      "address_source": "Google"
+      "addressLatLng": "40.348600,-74.659400", 
+      "address": "Forrestal Campus, C-Site, Princeton, NJ 08543-0451 USA", 
+      "normalized_address": "Forrestal Campus, C-Site, Princeton, NJ 08543-0451 USA", 
+      "id": "Princeton University. Furth Plasma Physics Laboratory", 
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -11181,10 +11181,13 @@
       "label": "Duke University Medical Center. Archives and Memorabilia"
     }, 
     {
+      "canonical_address": "DURHAM, NC 27710-0001, US", 
       "country": "USA", 
+      "addressLatLng": "35.993800,-78.898800", 
+      "address": "DUMC 3702, Durham, NC 27710 USA", 
+      "normalized_address": "DUMC 3702, Durham, NC 27710 USA", 
       "id": "Duke University Medical Center. Archives and Memorabilia", 
-      "address_source": "None", 
-      "address": "DUMC 3702, Durham, NC 27710 USA"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -11573,19 +11576,6 @@
     }, 
     {
       "type": "repository", 
-      "label": "Princeton University Library, Dept. of Rare Books and Special Collections, Seeley G. Mudd Manuscript Library, Public Policy Papers"
-    }, 
-    {
-      "canonical_address": "Princeton, NJ 08544, USA", 
-      "country": "USA", 
-      "addressLatLng": "40.348600,-74.659700", 
-      "address": "Princeton, New Jersey 08544 USA", 
-      "normalized_address": "Princeton, New Jersey 08544 USA", 
-      "id": "Princeton University Library, Dept. of Rare Books and Special Collections, Seeley G. Mudd Manuscript Library, Public Policy Papers", 
-      "address_source": "Google"
-    }, 
-    {
-      "type": "repository", 
       "label": "University of Utah, J. Willard Marriott Library"
     }, 
     {
@@ -11612,19 +11602,6 @@
     }, 
     {
       "type": "repository", 
-      "label": "Texas A&M University, Libraries"
-    }, 
-    {
-      "canonical_address": "College Station, TX 77843, USA", 
-      "country": "USA", 
-      "addressLatLng": "30.608359,-96.350119", 
-      "address": "College Station, Texas 77843-5000", 
-      "normalized_address": "College Station, Texas 77843-5000", 
-      "id": "Texas A&M University, Libraries", 
-      "address_source": "Google"
-    }, 
-    {
-      "type": "repository", 
       "label": "University of Tennessee, Special Collections Library"
     }, 
     {
@@ -11641,13 +11618,13 @@
       "label": "Oregon State University, University Archives"
     }, 
     {
-      "canonical_address": "Corvallis, OR 97331, USA", 
+      "canonical_address": "CORVALLIS, OR 97331-4501, US", 
       "country": "USA", 
-      "addressLatLng": "44.564405,-123.280036", 
+      "addressLatLng": "44.563900,-123.278900", 
       "address": "Corvallis, OR 97331-4501", 
       "normalized_address": "Corvallis, OR 97331-4501", 
       "id": "Oregon State University, University Archives", 
-      "address_source": "Google"
+      "address_source": "Yahoo"
     }, 
     {
       "type": "repository", 
@@ -11656,9 +11633,9 @@
     {
       "canonical_address": "Philadelphia, PA 19104, USA", 
       "country": "USA", 
-      "addressLatLng": "39.964045,-75.197184", 
+      "addressLatLng": "39.960512,-75.196673", 
       "address": "Philadelphia, Pennsylvania 19104-6320", 
-      "normalized_address": "Philadelphia, Pennsylvania 19104-6320", 
+      "normalized_address": "Philadelphia, Pennsylvania 19104-6320 USA", 
       "id": "University of Pennsylvania University Archives and Records Center", 
       "address_source": "Google"
     }, 
@@ -11703,19 +11680,6 @@
     }, 
     {
       "type": "repository", 
-      "label": "Texas A&M University, Cushing Memorial Library and Archives"
-    }, 
-    {
-      "canonical_address": "College Station, TX 77843, USA", 
-      "country": "USA", 
-      "addressLatLng": "30.608359,-96.350119", 
-      "address": "College Station, TX 77843-5000", 
-      "normalized_address": "College Station, TX 77843-5000", 
-      "id": "Texas A&M University, Cushing Memorial Library and Archives", 
-      "address_source": "Google"
-    }, 
-    {
-      "type": "repository", 
       "label": "Smithsonian Institution Archives, Capital Gallery, Suite 3000, MRC 507"
     }, 
     {
@@ -11738,6 +11702,19 @@
       "address": "600 Maryland Avenue, SW; Washington, DC 20024-2520", 
       "normalized_address": "600 Maryland Avenue, SW; Washington, DC 20024-2520", 
       "id": "Smithsonian Institution Archives Capital Gallery, Suite 3000, MRC 507", 
+      "address_source": "Google"
+    }, 
+    {
+      "type": "repository", 
+      "label": "XXX XXX"
+    }, 
+    {
+      "canonical_address": "XXX, 08280 Aue, Germany", 
+      "country": "XXXX", 
+      "addressLatLng": "50.618084,12.702268", 
+      "address": "XxX", 
+      "normalized_address": "XxX", 
+      "id": "XXX XXX", 
       "address_source": "Google"
     }
   ], 
