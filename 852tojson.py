@@ -7,8 +7,10 @@ y_api_key = 'gYeLNE3V34FScM89Mn1D1sA2FwNBwGnU2iF2WEr14d1g1LqhFh4BosxznBhxkU00huQ
 default_name = u'American Institute of Physics. Center for History of Physics. Niels Bohr Library'
 default_address = u'One Physics Ellipse, College Park, MD 20740, USA'
 
-types = { 'repository': { 'pluralLabel': 'repositories' } }
+types = { 'repository': { 'pluralLabel': 'repositories' },
+          'collection': { 'pluralLabel': 'collections'} }
 repos_list = []
+collection_list = []
 repos_counter = 1
 engines = (gc.Google(g_api_key), gc.Yahoo(y_api_key))
 marc_in = pymarc.MARCReader(file(sys.argv[1]))
@@ -29,19 +31,27 @@ try:
     repos_name = repos_address = repos_country = gc_address = normalized_address = address_source = u''
     repos = {}
     repos_detail = {}
+    repos_coll = {}
     if record['852'] is not None:
-      repos_name = utf8_join(record['852'].getSubfields('a', 'b'))
-      repos_address = utf8_join(record['852'].getSubfields('e'))
+      repos_name = utf8_join(record['852'].get_subfields('a', 'b'))
+      repos_address = utf8_join(record['852'].get_subfields('e'))
     else:
       (repos_name, repos_address) = (default_name, default_address)
     repos = { 'label': repos_name, 'type': 'repository' }
+    auth = record.author()
+    if auth == None: auth = ''
     repos_detail['id'] = repos_name
+    repos_coll['id'] = repos_name
+    repos_coll['repository'] = repos_name
+    repos_coll['auth'] = pymarc.marc8_to_unicode(auth)
+    repos_coll['label'] = pymarc.marc8_to_unicode(record['245'].format_field())
     try:
       repos_country = pymarc.marc8_to_unicode(record['904']['a']).strip('.:,;/ ')
-      repos_detail['country'] = repos_country
     except:
       pass
     if repos not in repos_list:
+      repos_list.extend([repos])
+      repos_detail['country'] = repos_country
       repos_detail['address'] = repos_address
       for engine in engines:
         normalized_address = normalize_address(repos_address)
@@ -72,9 +82,11 @@ try:
           pass
       else:
         repos_detail['address_source'] = 'None'
-      repos_list.extend([repos, repos_detail])
+      repos_list.extend([repos_detail])
       repos_counter += 1
+    repos_list.extend([repos_coll])
 finally:
-  simplejson.dump({'items': repos_list, 'types': types}, json_out, indent=2)
+  items = repos_list
+  simplejson.dump({'items': items, 'types': types}, json_out, indent=2)
   json_out.close()
 #
